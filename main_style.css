@@ -1,0 +1,101 @@
+:root{
+    --main-colour:#2f3542;
+    --secondary-colour:#1e90ff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--main-colour);
+    display: flex;
+    justify-content: center;
+}
+.main_body{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.search_bar{
+    height: 20px;
+    width: 50vw;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    border-bottom: var(--main-colour) 0px solid;
+    transition: all ease-in-out 100ms;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    overflow: hidden;
+}
+.search_bar input{
+    width: 250px;
+    padding: 10px;
+    border: 0px solid;
+    background: rgba(209, 209, 209, 0.747);
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    opacity: 60%;
+    color: var(--main-colour);
+    font-size: 20px;
+    outline: none;
+    border-radius: 20% 0px 0px 20%;
+    letter-spacing: 5px;
+}
+.search_bar img{
+    border: 0px solid;
+    height: 30px;
+    padding: 0px;
+    background: #70a1ff;
+    border-radius: 0px 20% 20% 0px;
+    /* margin-left: 8px; */
+    opacity: 40%;
+    transition: all ease-in-out 100ms;
+    position: relative;
+    left: 0%;
+}
+.search_bar img:hover{
+    opacity: 100%;
+}
+.weatherall{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weather0{
+    font-family: 'Rubik', sans-serif;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: black; */
+    padding: 50px;
+}
+.side_info{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: var(--main-colour);
+}
+.temperature{
+    font-size: 40px;
+    color: #58B19F;
+}
+.atmosphere{
+    font-size: 40px;
+    color: #3B3B98;
+}
+.wind{
+    font-size: 40px;
+    color: #1B9CFC;
+}

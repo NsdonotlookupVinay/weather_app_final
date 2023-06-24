@@ -1,0 +1,80 @@
+@media  screen and (max-width : 852px) {
+    .weather_logo{
+        height: auto;
+        width: 30vw;
+    }
+    .switch{
+        height: 69%;
+    }
+    .weatherall{
+        flex-direction: column;
+    }
+    .weather0{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 50px 0px;
+        gap: 5%;
+        width: 90vw;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .side_info{
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+    .temperature{
+        font-size: 30px;
+    }
+    .atmosphere{
+        font-size: 30px;
+    }
+    .wind{
+        font-size: 30px;
+    }
+    .h1{
+        font-size: 3vw;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    .weather_main{
+        font-size: 8vw;
+    }
+    .location_name{
+        font-size: 4vw;
+    }
+    .temp{
+        font-size: 7vw;
+    }
+}
+
+@media  screen and (max-width : 390px){
+    .h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    .logo{
+        margin-left: 5vw;
+    }
+    .dark_mode{
+        width: 26vw;
+    }
+    .search_bar{
+        width: 100vw;
+    }
+    .search_bar input{
+        width: 80%;
+        border-radius: 27% 0px 0px 27%;
+    }
+    .weather1{
+        border-radius: 4vh;
+    }
+    .weather_main{
+        font-size: 10vw;
+    }
+    .temp{
+        font-size: 10vw;
+    }
+}
