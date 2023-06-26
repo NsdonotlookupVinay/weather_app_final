@@ -7,7 +7,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("line1").style.color = "#f1f2f6"
         document.getElementById("search_bar_input").style.color = "#f1f2f6"
         document.getElementById("weatherall").style.backgroundColor = "#576574"
-        document.getElementById("weather1").style.backgroundColor = "var(--main-colour)"
+        // document.getElementById("weather1").style.backgroundColor = "var(--main-colour)"
         document.getElementById("weather_main").style.color = "#c8d6e5"
         // ---------------------
         document.getElementById("fealslike").style.color = "#c8d6e5"
@@ -31,7 +31,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("line1").style.color = "var(--main-colour)"
         document.getElementById("search_bar_input").style.color = "var(--main-colour)"
         document.getElementById("weatherall").style.backgroundColor = "#f1f2f6"
-        document.getElementById("weather1").style.backgroundColor = "#FFFFFF"
+        // document.getElementById("weather1").style.backgroundColor = "#FFFFFF"
         document.getElementById("weather_main").style.color = "var(--main-colour)"
         // ---------------------
         document.getElementById("fealslike").style.color = "var(--main-colour)"

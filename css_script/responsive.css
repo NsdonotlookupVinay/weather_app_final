@@ -48,7 +48,7 @@
     }
 }
 
-@media  screen and (max-width : 390px){
+@media  screen and (max-width : 600px){
     .h1{
         font-size: 5vw;
     }
@@ -63,18 +63,33 @@
     }
     .search_bar{
         width: 100vw;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        border-radius: 0px;
+        height: 37px;
     }
     .search_bar input{
-        width: 80%;
-        border-radius: 27% 0px 0px 27%;
+        width: 90%;
+        margin: 0px;
+        border-radius: 0px;
+        height: max-content;
+        
+    }
+    .search_bar img{
+        height: max-content;
+        border-radius: 0px;
     }
     .weather1{
-        border-radius: 4vh;
+        margin: 0px;
+        padding: 0px;
     }
     .weather_main{
         font-size: 10vw;
     }
     .temp{
         font-size: 10vw;
+    }
+    .weather0{
+        flex-direction: column;
     }
 }

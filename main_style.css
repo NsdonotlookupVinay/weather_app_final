@@ -86,6 +86,7 @@ body{
     margin: 20px 0px;
     font-size: 20px;
     color: var(--main-colour);
+    font-weight: lighter;
 }
 .temperature{
     font-size: 40px;

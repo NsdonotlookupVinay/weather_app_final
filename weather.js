@@ -24,7 +24,7 @@ async function checkweather(city){
     }else if(data.weather[0].main =="Snow"){
         document.getElementById("weather_logo_image").src = "weather_icons/snow.png"
     }else if(data.weather[0].main =="Rain"){
-        document.getElementById("weather_logo_image").src = "weather_icons/rain.png"
+        document.getElementById("weather_logo_image").src = "weather_icons/rain_clouds.png"
     }else if(data.weather[0].main =="Thunderstorm"){
         document.getElementById("weather_logo_image").src = "weather_icons/thunder_storm.png"
     }else if(data.weather[0].main =="Mist"){
